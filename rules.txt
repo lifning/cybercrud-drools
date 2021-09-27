@@ -61,6 +61,7 @@ www.twitch.tv##.channel-root__player--offline
 www.twitch.tv##.home-offline-hero
 www.twitch.tv###sideNav
 www.twitch.tv##.top-nav__menu
+www.twitch.tv##.video-manager-dmca-hint
 
 !!! stack exchange
 ! remove hot network questions
