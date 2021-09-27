@@ -145,6 +145,15 @@ stackoverflow.com###sidebar
 stackoverflow.com###footer
 stackoverflow.com###left-sidebar
 
+!!! github.com
+github.com##[href^="/marketplace"]
+github.com##[href^="/explore"]
+! this doesn't block the "sponsor this project" sidebar on the project main page if i'm actually interested in doing so
+github.com##[id^="funding-links-modal"]
+github.com##.footer
+! "why github", "explore", and "pricing" when not signed in
+github.com##.HeaderMenu-details
+
 ! gitlab.com
 gitlab.com##.broadcast-notification-message
 
