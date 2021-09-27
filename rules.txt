@@ -173,6 +173,11 @@ fandom.com##.is-visible.fandom-sticky-header
 fandom.com##.fandom-slider
 fandom.com##.undertale-footer br ~ b .extiw
 fandom.com##[src*="RPGFooterImage.png"]
+! fandom.com (mobile)
+fandom.com##.wds-global-navigation__logo
+fandom.com##.wds-global-navigation__modal-control-anon.wds-button
+fandom.com##.wds-global-navigation__community-bar
+fandom.com##.wds-global-navigation__links
 
 ! paypal.com
 www.paypal.com##.ccpaCookieBanner_content-container
