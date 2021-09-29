@@ -199,6 +199,7 @@ web.archive.org###donato
 
 ! docs.google.com
 docs.google.com##.docs-butterbar-wrap
+docs.google.com##.docs-promo-bubble
 
 ! pocketgamer.com
 www.pocketgamer.com###article-sidebar
