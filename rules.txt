@@ -53,15 +53,28 @@ twitter.com##[data-testid=cellInnerDiv]:has(h2:has-text(/^Who to follow$/)) + [d
 twitter.com##[data-testid=cellInnerDiv]:has(a[href*="/i/connect_people"])
 
 !!! twitch.tv
+www.twitch.tv##header[aria-label="Live hosts"] ~ *
+www.twitch.tv##header[aria-label="Live hosts"]
+www.twitch.tv##header[aria-label="Live categories"] ~ *
+www.twitch.tv##header[aria-label="Live categories"]
+www.twitch.tv##.channel-root__player
+www.twitch.tv##.channel-root__player--offline
 www.twitch.tv##.extension-container
 www.twitch.tv##.extension-taskbar
-www.twitch.tv##.prime-offers
-www.twitch.tv###twilight-sticky-footer-root
-www.twitch.tv##.channel-root__player--offline
+www.twitch.tv##.find-me
+www.twitch.tv##.front-page-carousel
 www.twitch.tv##.home-offline-hero
+www.twitch.tv##.prime-offers
 www.twitch.tv###sideNav
+www.twitch.tv##.side-nav
+www.twitch.tv##.side-nav__scrollable_content
+www.twitch.tv##.side-nav-section[aria-label="Recommended Channels"]
 www.twitch.tv##.top-nav__menu
+www.twitch.tv##.tw-relative.prime-offers
+www.twitch.tv##.tw-z-default.channel-leaderboard
+www.twitch.tv###twilight-sticky-footer-root
 www.twitch.tv##.video-manager-dmca-hint
+www.twitch.tv##.video-player
 
 !!! stack exchange
 ! remove hot network questions
@@ -82,9 +95,14 @@ stackapps.com##.js-consent-banner
 superuser.com##.js-consent-banner
 
 !!! discord
-discord.com##button[aria-label="Send a gift"]
-discord.com##button[aria-label="Open GIF picker"]
-discord.com##button[aria-label="Open sticker picker"]
+discord.com##[aria-label="Send a gift"]
+discord.com##[aria-label="Start an Activity"]
+discord.com##[aria-label="Open sticker picker"]
+discord.com##[aria-label="Open GIF picker"]
+discord.com##[aria-label^="Buy Boosts"]
+discord.com##[data-list-item-id*="nitro"]
+discord.com##[class*="premiumGuildSubscription"]
+discord.com##[class*="contentPremium"]
 ptb.discord.com##button[aria-label="Send a gift"]
 ptb.discord.com##button[aria-label="Open GIF picker"]
 ptb.discord.com##button[aria-label="Open sticker picker"]
@@ -191,15 +209,24 @@ fandom.com##.wds-global-navigation__links
 
 ! paypal.com
 www.paypal.com##.ccpaCookieBanner_content-container
+www.paypal.com##.ccpaCookieBanner_container-custom
 
 ! web.archive.org
 web.archive.org###donato
+
+! https://meet.jit.si
+meet.jit.si##.chrome-extension-banner
+
+! https://www.patreon.com
+www.patreon.com##[data-tag="components-alert-contentsDiv"]
+www.patreon.com##[aria-live="polite"][role="alert"]
 
 !! --- below this line is the special hell for sites i've been linked to randomly but were so appalling i bothered to make rules to make them usable at all ---
 
 ! docs.google.com
 docs.google.com##.docs-butterbar-wrap
 docs.google.com##.docs-promo-bubble
+||ogs.google.com/widget/callout$subdocument
 
 ! pocketgamer.com
 www.pocketgamer.com###article-sidebar
@@ -217,6 +244,10 @@ www.vice.com##.body-image
 www.vice.com##.article-newsletter-signup
 www.vice.com##.page-footer
 www.vice.com##.recirc-footer
+www.vice.com##.titlebar
+www.vice.com##.interstitial
+www.vice.com##.section-header
+||video.vice.com/*$subdocument
 
 ! adforum.com
 www.adforum.com##.needsubs
@@ -240,3 +271,35 @@ www.gamedeveloper.com###module-brand-engagement
 
 ! ign.com
 www.ign.com##.header-container
+
+! https://www.modcloth.com
+www.modcloth.com##.loader-bg
+www.modcloth.com##.loader
+modcloth.com###shopify-section-content-footer-top
+modcloth.com###shopify-section-content-footer-bottom .nav-container
+modcloth.com###ProductBottom
+modcloth.com###ProductDetails
+
+! https://startpage.com
+www.startpage.com###options-region
+||us-browse.startpage.com/sp/spstatic/images/sp_blink.gif$image
+
+! https://www.ibm.com
+www.ibm.com##.kc-interact.ibm-blocklink
+www.ibm.com###interact
+
+! https://pastebin.com
+pastebin.com##.-pro.popup-box
+pastebin.com##.-cookies.popup-box
+||pastebin.com/themes/pastebin/img/info.png$image
+pastebin.com##.-post-view.notice
+
+! https://theyetee.com
+theyetee.com##.module_cookie-notice--text
+theyetee.com##.is--active.js--cookies.module_cookie-notice
+
+! https://gdqvods.com
+gdqvods.com##.cookieConsent
+
+! https://pine64.com
+pine64.com##.gdpr_infobar_postion_bottom.moove-gdpr-dark-scheme.moove-gdpr-align-center
