@@ -176,8 +176,11 @@ github.com##.HeaderMenu-details
 gitlab.com##.broadcast-notification-message
 
 ! startpage.com
+www.startpage.com###options-region
 startpage.com##div.search-filters-toolbar__dropdown
 startpage.com##.search-filters-toolbar__container
+www.startpage.com##.widget-install-privacy-protect-container
+||us-browse.startpage.com/sp/spstatic/images/sp_blink.gif$image
 
 ! gist.github.com
 gist.github.com##.gist-banner
@@ -271,6 +274,12 @@ www.gamedeveloper.com###module-brand-engagement
 
 ! ign.com
 www.ign.com##.header-container
+www.ign.com##.infeed-disclosure + *
+www.ign.com##.ign-rush
+www.ign.com##.footer-container
+www.ign.com##.feedback-content
+www.ign.com##.guide-links
+www.ign.com##.sidebar-footer
 
 ! https://www.modcloth.com
 www.modcloth.com##.loader-bg
@@ -279,10 +288,13 @@ modcloth.com###shopify-section-content-footer-top
 modcloth.com###shopify-section-content-footer-bottom .nav-container
 modcloth.com###ProductBottom
 modcloth.com###ProductDetails
+modcloth.com##.animate-bounce
 
-! https://startpage.com
-www.startpage.com###options-region
-||us-browse.startpage.com/sp/spstatic/images/sp_blink.gif$image
+! https://www.sockdreams.com
+www.sockdreams.com##.loading-mask
+
+! https://www.mediafire.com
+www.mediafire.com##.Avast
 
 ! https://www.ibm.com
 www.ibm.com##.kc-interact.ibm-blocklink
@@ -303,3 +315,26 @@ gdqvods.com##.cookieConsent
 
 ! https://pine64.com
 pine64.com##.gdpr_infobar_postion_bottom.moove-gdpr-dark-scheme.moove-gdpr-align-center
+
+! https://old.reddit.com
+old.reddit.com##.listingsignupbar.infobar
+
+! https://www.dailymotion.com
+www.dailymotion.com##[class^="DiscoveryVideoSection"]
+www.dailymotion.com##[class^="DiscoveryQueueDisplay"]
+www.dailymotion.com##[class^="CookiePopup"]
+
+! https://streamlabs.com
+||sp-cdn.streamlabs.com/img/*/*.gif$image
+
+! https://www.websequencediagrams.com
+www.websequencediagrams.com##.google-signin-warning
+
+! https://bandcamp.com
+bandcamp.com##.merch-delay-note
+
+! https://knowyourmeme.com
+knowyourmeme.com###omgkym
+knowyourmeme.com##.related-news
+knowyourmeme.com###news_feeds
+knowyourmeme.com###footer-new
