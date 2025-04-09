@@ -95,20 +95,43 @@ stackapps.com##.js-consent-banner
 superuser.com##.js-consent-banner
 
 !!! discord
-discord.com##[aria-label="Send a gift"]
-discord.com##[aria-label="Start an Activity"]
-discord.com##[aria-label="Open sticker picker"]
-discord.com##[aria-label="Open GIF picker"]
-discord.com##[aria-label^="Buy Boosts"]
-discord.com##[data-list-item-id*="nitro"]
-discord.com##[class*="premiumGuildSubscription"]
-discord.com##[class*="contentPremium"]
 ptb.discord.com##button[aria-label="Send a gift"]
 ptb.discord.com##button[aria-label="Open GIF picker"]
 ptb.discord.com##button[aria-label="Open sticker picker"]
 canary.discord.com##button[aria-label="Send a gift"]
 canary.discord.com##button[aria-label="Open GIF picker"]
 canary.discord.com##button[aria-label="Open sticker picker"]
+discord.com##[aria-label="Send a gift"]
+discord.com##[aria-label="Start an Activity"]
+discord.com##[aria-label="Open sticker picker"]
+discord.com##[aria-label="Open GIF picker"]
+discord.com##[aria-label^="Buy Boosts"]
+discord.com##[data-list-item-id*="nitro"]
+discord.com##[data-list-item-id*=___shop]
+discord.com##[data-list-item-id*="channels___boosts"]
+!discord.com##[class*=tutorialContainer]
+discord.com##[class*="premiumGuildSubscription"]
+discord.com##[class*="contentPremium"]
+discord.com##[class*=shinyButton]
+discord.com##[class^=nowPlayingColumn]
+discord.com##[class*=colorPremiumGradient]
+discord.com##li:has([class*="emojiLockIconContainer"])
+!discord.com##li:has([class*=lockedEmoji])
+discord.com##[class*=premiumSectionDivider]
+discord.com##[class*=premiumSectionDivider] ~ *
+discord.com##[class*=upsell]
+discord.com##[class^=referralContainer]
+discord.com##[class^=premiumFeatureBorder]
+discord.com##[class^=selectionGroup]:has(h3:contains("Nitro"))
+!discord.com##[class*=NitroLocked]
+discord.com##[aria-label*="Super Reaction"]
+discord.com##[aria-label*="press to super react"]
+discord.com##button[aria-label="Apps"]
+discord.com##a:has([aria-label="Help"][role="button"])
+! Apr 1 2025 popup ad
+discord.com##.wrapper__3ba3b
+! obnoxiously large github ograph embed
+discord.com##div[class^="imageContent"]:has(img[src*="/opengraph.githubassets.com/"])
 
 !!! (https://bendodson.com/projects/itunes-artwork-finder/) please stop staring into my soul
 ||bendodson.s3.amazonaws.com/ben-dodson.png$image
@@ -118,6 +141,7 @@ www.nytimes.com##[data-hierarchy=zone] > div:has(.package-title-wrapper span:has
 www.nytimes.com##h3:has-text(/^opinion$/) + div:has([data-well-section=well-section])
 www.nytimes.com##h3:has-text(/^opinion$/):has(+ div:has([data-well-section=well-section]))
 www.nytimes.com##section.story-wrapper:has(a[href*="/opinion/"])
+www.nytimes.com###standalone-footer
 
 ! just the faqs ma'am
 stackexchange.com##.top-bar
@@ -171,6 +195,8 @@ github.com##[id^="funding-links-modal"]
 github.com##.footer
 ! "why github", "explore", and "pricing" when not signed in
 github.com##.HeaderMenu-details
+github.com##.js-remove-unless-platform
+github.com###issues-index-tip
 
 ! gitlab.com
 gitlab.com##.broadcast-notification-message
@@ -224,11 +250,18 @@ meet.jit.si##.chrome-extension-banner
 www.patreon.com##[data-tag="components-alert-contentsDiv"]
 www.patreon.com##[aria-live="polite"][role="alert"]
 
+! https://map.purpleair.com
+map.purpleair.com###paSensorsJoin
+
+! https://order.toasttab.com
+order.toasttab.com##.offerAndLoyaltyCard
+
 !! --- below this line is the special hell for sites i've been linked to randomly but were so appalling i bothered to make rules to make them usable at all ---
 
 ! docs.google.com
 docs.google.com##.docs-butterbar-wrap
 docs.google.com##.docs-promo-bubble
+docs.google.com##.coverImagePromoContainer
 ||ogs.google.com/widget/callout$subdocument
 
 ! pocketgamer.com
@@ -332,9 +365,27 @@ www.websequencediagrams.com##.google-signin-warning
 
 ! https://bandcamp.com
 bandcamp.com##.merch-delay-note
+bandcamp.com##.tos-update.corpbanner
 
 ! https://knowyourmeme.com
 knowyourmeme.com###omgkym
 knowyourmeme.com##.related-news
 knowyourmeme.com###news_feeds
 knowyourmeme.com###footer-new
+
+! https://microsoft.com
+www.microsoft.com##[aria-label*=Copilot]
+
+! https://bugzilla.redhat.com
+bugzilla.redhat.com###no-js-message
+
+! https://www.linkedin.com
+www.linkedin.com##.right-rail
+www.linkedin.com##.more-articles__slide-list
+www.linkedin.com##.li-footer__list
+www.linkedin.com##.feed-cta-banner__text
+www.linkedin.com##.comments
+www.linkedin.com##.social-details
+www.linkedin.com##.header
+www.linkedin.com##.btn-secondary
+www.linkedin.com##.modal__overlay--visible
